@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganhe prêmios</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <center>
+        <h1> Siga nossa página e ganhe prêmios</h1>
+        <h3>Clique abaixo e ganhe o seu prêmio!!!</h3>
+        <div class="imagens">
+            <a href="https://www.betfair.com/br"><img src="img/betfair.png" alt=""></a>
+            <br>
+            <input class="botão" type="button" value="Clique aqui" onclick="apertar1()">
+            <br><br>
+            <a href="https://go.blaze.ac/visit/?bta=35966&nci=5377&afp=%7Bg%20lid%7D&utm_campaign=Sao%20Paulo%20%7C%20Performance%20Max%20%7C%20Casino&url=https://blaze.ac%3Fgad_source%3D1&gclid=EAIaIQobChMIorbeidvRhgMVE0VIAB3FvgZ8EAAYASAAEgIeP_D_BwE"><img src="img/blaze.png" alt=""></a>
+            <br>
+            <input class="botão" type="button" value="Clique aqui" onclick="apertar2()">
+            <br><br>
+            <a href="https://hipercapmogi.com.br/"><img src="img/hipercap.png" alt=""></a>
+            <br>
+            <input class="botão" type="button" value="Clique aqui" onclick="apertar3()">
+            <br><br>
+            <a href="https://nova-plataforma-jogos.com/?partner_click_id={subid}&creative_id=700258968856&webmaster=878977&sub1=700258968856&sub2=21317185843&sub3=fortune%20tiger&sub16=EAIaIQobChMI7MPjqtvRhgMVaAutBh0LgQGqEAAYAiAAEgIhQfD_BwE&gad_source=1&gclid=EAIaIQobChMI7MPjqtvRhgMVaAutBh0LgQGqEAAYAiAAEgIhQfD_BwE"><img src="img/tigrinho.jpg" alt=""></a>
+            <br>
+            <input class="botão" type="button" value="Clique aqui" onclick="apertar4()">
+            <br><br>
+        </div>
+        <br>
+
+    </center>
+    <script>
+        function apertar1(){
+            Swal.fire({
+                title: "Transferência concluída!",
+                text: "aguarde mais um pouco para efetuar o saque",
+                icon: "success"
+              });
+        }
+        function apertar2(){
+            Swal.fire({
+                title: "Ótimo",
+                text: "mais alguns minutos e estará pronto para você receber a quantia",
+                icon: "success"
+              });
+        }
+        function apertar3(){
+            Swal.fire({
+                title: "Parabéns!",
+                text: " a transferência já foi feita",
+                icon: "success"
+              });
+        }
+        function apertar4(){
+
+            Swal.fire({
+                title: "Oops!",
+                text: "houve um erro no saque, insira suas credênciais",
+                icon: "error"
+              });
+        }
+    </script>
+    <style>
+        *{
+            font-size: 30px;
+            font-weight: 100;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            background-color: rgb(231, 238, 232);
+        }
+        img{
+            width: 400px;
+            height: 300px;
+            display: flex;
+            filter: drop-shadow(0px 3px 5px rgb(58, 4, 4));
+            border-radius: 5%;
+        }
+        .imagens{
+            justify-content: center;
+            gap: 30px;
+        }
+        .botão{
+            border-radius: 5px;
+            border: 3px solid transparent;
+            background-color: rgb(8, 4, 17);
+            color: aliceblue;
+            transition: 0.5s;
+        }
+        .botão:hover{
+            background-color: rgb(166, 172, 177);
+            color: rgb(8, 4, 17);
+        }
+    </style>
+</body>
+</html>
